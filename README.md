@@ -9,7 +9,6 @@ This project implements a sentiment analysis application that classifies text in
 
 ## Project Structure
 
-
 ├── main.py # The main script to run the Streamlit application.
 ├── model.h5 # Trained Keras model for sentiment classification.
 ├── tfidf.pkl # Serialized TF-IDF vectorizer for text feature extraction.
