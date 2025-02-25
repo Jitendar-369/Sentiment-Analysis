@@ -6,7 +6,6 @@
 
 
 
-
 ## Overview
 
 This project implements a sentiment analysis application that classifies text into various sentiment categories. The application uses a machine learning model and TF-IDF vectorization to predict the sentiment of user-input text.
