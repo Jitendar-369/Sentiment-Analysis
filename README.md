@@ -1,6 +1,5 @@
 <<<<<<< HEAD
-# Sentiment-Analysis
-=======
+
 # Sentiment Analysis Project
 
 ## Overview
