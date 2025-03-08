@@ -37,5 +37,5 @@ tfidf.pkl: The serialized TF-IDF vectorizer used for transforming text data.
 requirements.txt: A list of Python packages required to run the project.
 
 Data
-The data/ directory should contain any necessary data files for training or testing the model. Ensure that data files are correctly referenced in your code if they are used.
+The data directory should contain any necessary data files for training or testing the model. Ensure that data files are correctly referenced in your code if they are used.
 >>>>>>> a28f3a0 (Initial commit - Sentiment Analysis project)
