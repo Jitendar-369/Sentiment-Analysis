@@ -1,46 +1,41 @@
-Sentiment Analysis Project
-Overview
-This project implements a Sentiment Analysis Application that classifies text into various sentiment categories (e.g., positive, negative, neutral). It utilizes a machine learning model trained on text data and employs TF-IDF vectorization to convert text into numerical features for classification.
+# Sentiment Analysis Project
 
-Project Structure
-bash
-Copy
-Edit
-├── main.py           # The main script to run the Streamlit application.
-├── model.h5          # Trained Keras model for sentiment classification.
-├── tfidf.pkl         # Serialized TF-IDF vectorizer for text feature extraction.
-├── README.md         # This file, containing project details.
-├── requirements.txt  # List of dependencies required to run the project.
-└── data/             # Folder containing data files used for training/testing.
-Installation
-Clone the repository or download the project files:
+## Overview
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/sentiment-analysis.git
-cd sentiment-analysis
+This project implements a sentiment analysis application that classifies text into various sentiment categories. The application uses a machine learning model and TF-IDF vectorization to predict the sentiment of user-input text.
+
+## Project Structure
+
+├── main.py # The main script to run the Streamlit application.
+├── model.h5 # Trained Keras model for sentiment classification.
+├── tfidf.pkl # Serialized TF-IDF vectorizer for text feature extraction.
+├── README.md # This file, containing project details.
+├── requirements.txt # List of dependencies required to run the project.
+└── data/ # Folder containing data files used for training/testing.
+
+
+## Installation
+
+1. **Clone the repository** or **download the project files**.
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd path/to/your/project
+
 Install the required dependencies:
+	pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
 Usage
-Start the Streamlit application to analyze sentiment from user-input text:
+Start the Streamlit application:
+	streamlit run main.py
 
-bash
-Copy
-Edit
-streamlit run main.py
 Files
-main.py: Runs the Streamlit web app, allowing users to input text and get sentiment predictions.
-model.h5: The pre-trained Keras deep learning model for sentiment classification.
-tfidf.pkl: The serialized TF-IDF vectorizer, used for converting text into numerical form.
-requirements.txt: Lists the necessary Python packages to run the project.
-data/: Contains training/testing datasets (if applicable).
-Data
-The data/ directory should contain the dataset files used for training and testing. Ensure that the correct file paths are referenced in the code.
+main.py: Contains the Streamlit application code that allows users to input text and get sentiment predictions.
+model.h5: The pre-trained Keras model for sentiment classification.
+tfidf.pkl: The serialized TF-IDF vectorizer used for transforming text data.
+requirements.txt: A list of Python packages required to run the project.
 
-License
-This project is open-source and available for educational purposes.
+Data
+The data directory should contain any necessary data files for training or testing the model. Ensure that data files are correctly referenced in your code if they are used.
+>>>>>>> a28f3a0 (Initial commit - Sentiment Analysis project)
